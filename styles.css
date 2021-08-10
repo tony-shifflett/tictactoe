@@ -1,0 +1,98 @@
+:root {
+  background-color: black;
+}
+
+#ticTacToe {
+  background-color: navy;
+  border: solid 3px palegreen;
+  border-radius: 10%;
+  width: 200px;
+  margin: 50px auto auto auto;
+  color: greenyellow;
+  font-size: 20px;
+  padding: 5px;
+  text-align: center;
+  box-shadow: -11px 9px #4e9a8c;
+}
+#winner {
+  background-color: navy;
+  color: white;
+  font-size: 20px;
+  border: red solid 3px;
+  border-radius: 10%;
+  padding: 20px;
+  width: 100px;
+  margin: auto;
+  visibility: hidden;
+}
+.container{
+  margin: 50px;
+  display: flex;
+  justify-content: center;
+ 
+}
+
+.game-container {
+   width: 400px;
+  height: 400px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-column-gap: 15px;
+  grid-row-gap: 15px;
+  background-color: red;
+  padding: 25px;
+  border: solid darkred 3px;
+  border-radius: 10%;
+  
+ 
+}
+
+.box {
+  background-color: white;
+  border: solid darkred 3px;
+  border-radius: 10%;
+  font-family: 'Patrick Hand SC', cursive;
+  font-size: 72px;
+  text-align: center;
+  box-shadow: -11px 12px #543b3b;
+  
+}
+
+.player1{
+  background-color: #98fb98;
+}
+.player1clicked {
+  background-color: #98fb98;
+  color: darkblue;    
+}
+
+.player2{
+  background-color: 	#ffdab9;
+}
+.player2clicked {
+  background-color: 	#ffdab9;
+  color: darkcyan;
+}
+
+.unavailable {
+  background-color: grey;
+}
+
+#reset {
+  background-color: darkred;
+  color: yellow;
+  border: 3px yellow solid;
+  border-radius: 30%;
+  width: 100px;
+  height: 50px;
+  margin: auto;
+  text-align: center;
+  padding-top: 30px; 
+  margin-top: 20px;
+}
+
+#reset:hover {
+  background-color: red;
+  cursor: pointer;
+}
